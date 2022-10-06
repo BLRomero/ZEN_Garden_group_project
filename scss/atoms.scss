@@ -1,3 +1,4 @@
+@use 'variables' as *;
 // smallest things
 //links
 //div
@@ -6,3 +7,35 @@
 //paragraphs
 //images
 //headers
+
+h1,
+h2, 
+h3{font-family: $headerfont;
+    line-height: normal;
+}
+
+h1{
+    font-size: 1em;
+    
+}
+
+h2{
+    font-size: .75em;
+}
+
+h3{
+    font-size: .5em;
+}
+a{
+    color: $textcolor;
+    &:hover{
+        color:$accentcolor2;//purple
+    }
+    &:visited{
+        color:$accentcolor3;//teal
+    }
+    
+}
+p{
+
+}
