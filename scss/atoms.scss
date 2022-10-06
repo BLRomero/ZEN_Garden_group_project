@@ -8,6 +8,11 @@
 //images
 //headers
 
+@mixin mainpara{
+font-family: $bodyfont;
+color: $textcolor;
+}
+
 h1,
 h2, 
 h3{font-family: $headerfont;
@@ -37,5 +42,5 @@ a{
     
 }
 p{
-color:$textcolor;
+@include mainpara;
 }
