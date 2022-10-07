@@ -1,5 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Mali&display=swap");
+h1,
+h2,
+h3 {
+  font-family: "font-family: 'Mali', cursive";
+  line-height: normal;
+}
 
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - style.scss"; }
+h1 {
+  font-size: 1em;
+}
+
+h2 {
+  font-size: 0.75em;
+}
+
+h3 {
+  font-size: 0.5em;
+}
+
+a {
+  color: #000000;
+}
+a:hover {
+  color: #5f0f40;
+}
+a:visited {
+  color: #0f4c5c;
+}
+
+p {
+  font-family: "font-family: 'Lora', serif";
+  color: #000000;
+}
+
+/*# sourceMappingURL=style.css.map */
