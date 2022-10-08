@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Mali&display=swap");
+body {
+  background-color: #9c876a; }
+
 h1,
 h2,
 h3 {
@@ -9,10 +12,10 @@ h1 {
   font-size: 3em; }
 
 h2 {
-  font-size: 1em; }
+  font-size: 2em; }
 
 h3 {
-  font-size: .75em; }
+  font-size: 1.5em; }
 
 a {
   color: #000000; }
@@ -24,5 +27,11 @@ a {
 p {
   font-family: "Lora", serif;
   color: #000000; }
+
+.main_div {
+  margin: auto;
+  border: 3px solid black;
+  width: 40%;
+  padding: 5px; }
 
 /*# sourceMappingURL=style.css.map */

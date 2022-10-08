@@ -13,6 +13,10 @@ font-family: $bodyfont;
 color: $textcolor;
 }
 
+body{
+    background-color:$background-color;
+}
+
 h1,
 h2, 
 h3{font-family: $headerfont;
@@ -25,11 +29,11 @@ h1{
 }
 
 h2{
-    font-size: 1em;
+    font-size: 2em;
 }
 
 h3{
-    font-size: .75em;
+    font-size: 1.5em;
 }
 a{
     color: $textcolor;
