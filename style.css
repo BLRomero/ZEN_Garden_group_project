@@ -2,7 +2,7 @@
 h1,
 h2,
 h3 {
-  font-family: "'Mali', cursive";
+  font-family: "Mali", cursive;
   line-height: normal; }
 
 h1 {
@@ -22,10 +22,7 @@ a {
     color: #0f4c5c; }
 
 p {
-  font-family: "'Lora', serif";
+  font-family: "Lora", serif;
   color: #000000; }
-
-@use 'molecules';
-@use 'organisms';
 
 /*# sourceMappingURL=style.css.map */
