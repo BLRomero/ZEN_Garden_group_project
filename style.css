@@ -6,7 +6,8 @@ h1,
 h2,
 h3 {
   font-family: "Mali", cursive;
-  line-height: normal; }
+  line-height: normal;
+  color: #5f0f40; }
 
 h1 {
   font-size: 3em; }
@@ -20,9 +21,9 @@ h3 {
 a {
   color: #000000; }
   a:hover {
-    color: #5f0f40; }
+    color: #CE5A12; }
   a:visited {
-    color: #0f4c5c; }
+    color: #9A031E; }
 
 p {
   font-family: "Lora", serif;

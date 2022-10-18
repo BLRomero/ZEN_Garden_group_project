@@ -22,6 +22,7 @@ h1,
 h2, 
 h3{font-family: $headerfont;
     line-height: normal;
+    color: $accentcolor2;
 }
 
 h1{
@@ -39,10 +40,10 @@ h3{
 a{
     color: $textcolor;
     &:hover{
-        color:$accentcolor2;//purple
+        color:$accentcolor;//orange
     }
     &:visited{
-        color:$accentcolor3;//teal
+        color:$maincolor;//red
     }
     
 }
