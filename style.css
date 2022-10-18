@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Mali&display=swap");
+body {
+  background-color: #C6BAA9; }
+
 h1,
 h2,
 h3 {
@@ -32,6 +35,6 @@ p {
   padding: 5px; }
 
 body {
-  background-color: #9c876a; }
+  background-color: #C6BAA9; }
 
 /*# sourceMappingURL=style.css.map */
