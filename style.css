@@ -1,41 +1,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Mali&display=swap");
 body {
-  background-color: #C6BAA9; }
+  background-color: #C6BAA9;
+}
 
 h1,
 h2,
 h3 {
   font-family: "Mali", cursive;
   line-height: normal;
-  color: #5f0f40; }
+  color: #5f0f40;
+}
 
 h1 {
-  font-size: 3em; }
+  font-size: 3em;
+  color: #9a031e;
+  margin-block-end: 0;
+}
 
 h2 {
-  font-size: 2em; }
+  font-size: 1.5em;
+  margin-block-start: 0;
+  color: #9a031e;
+}
 
 h3 {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+}
 
 a {
-  color: #000000; }
-  a:hover {
-    color: #CE5A12; }
-  a:visited {
-    color: #9A031E; }
+  color: #000000;
+}
+a:hover {
+  color: #CE5A12;
+}
+a:visited {
+  color: #9A031E;
+}
 
 p {
   font-family: "Lora", serif;
-  color: #000000; }
+  color: #000000;
+}
 
 .main_div {
   margin: auto;
   border: 3px solid black;
   width: 40%;
-  padding: 5px; }
+  padding: 5px;
+}
 
 body {
-  background-color: #C6BAA9; }
+  background-color: #C6BAA9;
+}
 
 /*# sourceMappingURL=style.css.map */
