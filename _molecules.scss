@@ -5,3 +5,16 @@
 //    display:block;
 //    content:url(images/leaf#1.png);
 //}
+
+
+.page-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    grid-auto-rows: 100px;
+    grid-gap:20px;
+}
+
+.intro {
+ 
+}

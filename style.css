@@ -29,6 +29,13 @@ p {
   font-family: "Lora", serif;
   color: #000000; }
 
+.page-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  grid-auto-rows: 100px;
+  grid-gap: 20px; }
+
 .main_div {
   margin: auto;
   border: 3px solid black;
