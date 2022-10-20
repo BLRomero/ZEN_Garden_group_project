@@ -33,9 +33,9 @@ p {
   font-family: "Lora", serif;
   color: #000000; }
 
-#zen-intro {
+.preamble::after {
   display: block;
-  content: url("./images/leaf#1.png"); }
+  content: url("./images/leaf1.png"); }
 
 .main_div {
   margin: auto;
