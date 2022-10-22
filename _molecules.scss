@@ -1,4 +1,15 @@
 //grid
+
+body {
+    display: grid;
+    grid-template-columns: repeat(5 auto); 
+    grid-template-rows: repeat(8, auto);
+
+}
+
+
+
+
 //nav
 
 //#zen-intro{
