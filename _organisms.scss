@@ -1,3 +1,4 @@
+@import 'variables';
 //html
 //head
 //body
@@ -9,4 +10,7 @@
 }
 body {
     background-color: $background-color;
+    background-image: url(./images/1926201.png);
+    background-size:850px;
+    background-repeat: no-repeat;
 }

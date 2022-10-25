@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Mali&display=swap");
-body {
-  background-color: #C6BAA9; }
-
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Mali&display=swap");
 h1,
 h2,
 h3 {
@@ -102,6 +100,9 @@ footer {
   padding: 5px; }
 
 body {
-  background-color: #C6BAA9; }
+  background-color: #C6BAA9;
+  background-image: url(./images/1926201.png);
+  background-size: 850px;
+  background-repeat: no-repeat; }
 
 /*# sourceMappingURL=style.css.map */
