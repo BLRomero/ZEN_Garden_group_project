@@ -12,6 +12,12 @@ body {
 	height: 115px;
 	background-size: 262px;
 	background-repeat: no-repeat;
+	background-attachment: inherit;
+	background-position: center;
+	bottom: 100px;
+	padding: 30px;
+	
+	
 }
 
 @media screen and (min-width: 426px) {
