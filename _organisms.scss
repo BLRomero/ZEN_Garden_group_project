@@ -2,15 +2,41 @@
 //html
 //head
 //body
-.main_div{
-    margin:auto;
-    border: 3px solid black;
-    width: 40%;
-    padding: 5px;
-}
+
 body {
-    background-color: $background-color;
-    background-image: url(./images/treeupdate.png);
-    background-size: 950px;
-    background-repeat: no-repeat;
+	background-color: $background-color;
+}
+
+.extra5 {
+	background-image: url(./images/pumpkins.png);
+	height: 115px;
+	background-size: 262px;
+	background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 426px) {
+
+
+}
+
+@media screen and (min-width: 769px) {
+	.main_div {
+		margin: auto;
+		border: 3px solid black;
+		width: 40%;
+		padding: 5px;
+	}
+
+	body {
+		background-image: url(./images/treeupdate.png);
+		background-size: 950px;
+		background-repeat: no-repeat;
+	}
+
+	.extra5 {
+		background-image: url(./images/pumpkins.png);
+		height: 250px;
+		background-size: 575px;
+		background-repeat: no-repeat;
+	}
 }

@@ -5,102 +5,151 @@ h2,
 h3 {
   font-family: "Mali", cursive;
   line-height: normal;
-  color: #5f0f40; }
+  color: #5f0f40;
+}
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
   color: #9a031e;
-  margin-block-end: 0; }
+  margin-block-end: 0;
+}
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-block-start: 0;
-  color: #9a031e; }
+  color: #9a031e;
+}
 
 h3 {
-  font-size: 1.5em; }
+  font-size: 1.2em;
+}
 
-a {
-  color: #000000; }
+@media screen and (min-width: 769px) {
+  h1,
+h2,
+h3 {
+    font-family: "Mali", cursive;
+    line-height: normal;
+    color: #5f0f40;
+  }
+  h1 {
+    font-size: 3em;
+    color: #9a031e;
+    margin-block-end: 0;
+  }
+  h2 {
+    font-size: 1.5em;
+    margin-block-start: 0;
+    color: #9a031e;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  a {
+    color: #000000;
+  }
   a:hover {
-    color: #CE5A12; }
+    color: #CE5A12;
+  }
   a:visited {
-    color: #9A031E; }
-
-p {
-  font-family: "Lora", serif;
-  color: #000000; }
-
-.page-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
-  grid-template-rows: auto; }
-
-.intro {
-  grid-column: 3;
-  grid-row: 1;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, auto);
-  padding-right: 30px; }
-
-[role=banner] {
-  grid-column: 3/5;
-  text-align: right; }
-
-.summary {
-  grid-column: 2/5;
-  grid-row: 2;
-  text-align: right; }
-
-.preamble {
-  grid-column: 2/4;
-  grid-row: 3;
-  text-align: right; }
-
-.main {
-  grid-column: 3;
-  grid-row: 2;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, auto);
-  grid-gap: 10px;
-  padding: 30px; }
-
-.explanation {
-  grid-column: 2/5;
-  grid-row: 1; }
-
-.participation {
-  grid-column: 1/4;
-  grid-row: 2; }
-
-.benefits {
-  grid-column: 2/5;
-  grid-row: 3; }
-
-.requirements {
-  grid-column: 1/4;
-  grid-row: 4; }
-
-footer {
-  grid-column: 1/-1;
-  grid-row: 5; }
-
-.sidebar {
-  grid-column: 2;
-  grid-row: 2; }
-
-.main_div {
-  margin: auto;
-  border: 3px solid black;
-  width: 40%;
-  padding: 5px; }
-
+    color: #9A031E;
+  }
+  p {
+    font-family: "Lora", serif;
+    color: #000000;
+  }
+}
+@media screen and (min-width: 769px) {
+  .page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: auto;
+  }
+  .intro {
+    grid-column: 3;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    padding-right: 30px;
+  }
+  [role=banner] {
+    grid-column: 3/5;
+    text-align: right;
+  }
+  .summary {
+    grid-column: 2/5;
+    grid-row: 2;
+    text-align: right;
+  }
+  .preamble {
+    grid-column: 2/4;
+    grid-row: 3;
+    text-align: right;
+  }
+  .main {
+    grid-column: 3;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-gap: 10px;
+    padding: 30px;
+  }
+  .explanation {
+    grid-column: 2/5;
+    grid-row: 1;
+  }
+  .participation {
+    grid-column: 1/4;
+    grid-row: 2;
+  }
+  .benefits {
+    grid-column: 2/5;
+    grid-row: 3;
+  }
+  .requirements {
+    grid-column: 1/4;
+    grid-row: 4;
+  }
+  footer {
+    grid-column: 1/-1;
+    grid-row: 5;
+  }
+  .sidebar {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
 body {
   background-color: #C6BAA9;
-  background-image: url(./images/treeupdate.png);
-  background-size: 950px;
-  background-repeat: no-repeat; }
+}
+
+.extra5 {
+  background-image: url(./images/pumpkins.png);
+  height: 115px;
+  background-size: 262px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 769px) {
+  .main_div {
+    margin: auto;
+    border: 3px solid black;
+    width: 40%;
+    padding: 5px;
+  }
+  body {
+    background-image: url(./images/treeupdate.png);
+    background-size: 950px;
+    background-repeat: no-repeat;
+  }
+  .extra5 {
+    background-image: url(./images/pumpkins.png);
+    height: 250px;
+    background-size: 575px;
+    background-repeat: no-repeat;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

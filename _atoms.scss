@@ -15,45 +15,82 @@
 // med view 426=>768
 // sm view 320=>425
 
-@mixin mainpara{
-font-family: $bodyfont;
-color: $textcolor;
-}
-
-
-
 h1,
-h2, 
-h3{font-family: $headerfont;
-    line-height: normal;
-    color: $accentcolor2;
+h2,
+h3 {
+	font-family: $headerfont;
+	line-height: normal;
+	color: $accentcolor2;
 }
 
 h1 {
-    font-size: 3em;
-    color: #9a031e; 
-    margin-block-end: 0;
+	font-size: 2em;
+	color: #9a031e;
+	margin-block-end: 0;
 }
 
 h2 {
-    font-size: 1.5em;
-    margin-block-start: 0;
-    color: #9a031e;
+	font-size: 1.2em;
+	margin-block-start: 0;
+	color: #9a031e;
 }
 
-h3{
-    font-size: 1.5em;
+h3 {
+	font-size: 1.2em;
 }
-a{
-    color: $textcolor;
-    &:hover{
-        color:$accentcolor;//orange
-    }
-    &:visited{
-        color:$maincolor;//red
-    }
-    
+
+
+
+@media screen and (min-width: 426px) {
+
 }
-p{
-@include mainpara;
+
+@media screen and (min-width: 769px) {
+	@mixin mainpara {
+		font-family: $bodyfont;
+		color: $textcolor;
+	}
+
+
+
+	h1,
+	h2,
+	h3 {
+		font-family: $headerfont;
+		line-height: normal;
+		color: $accentcolor2;
+	}
+
+	h1 {
+		font-size: 3em;
+		color: #9a031e;
+		margin-block-end: 0;
+	}
+
+	h2 {
+		font-size: 1.5em;
+		margin-block-start: 0;
+		color: #9a031e;
+	}
+
+	h3 {
+		font-size: 1.5em;
+	}
+
+	a {
+		color: $textcolor;
+
+		&:hover {
+			color: $accentcolor; //orange
+		}
+
+		&:visited {
+			color: $maincolor; //red
+		}
+
+	}
+
+	p {
+		@include mainpara;
+	}
 }
