@@ -40,12 +40,6 @@ h3 {
 }
 
 
-
-@media screen and (min-width: 426px) {
-
-}
-
-@media screen and (min-width: 769px) {
 	@mixin mainpara {
 		font-family: $bodyfont;
 		color: $textcolor;
@@ -93,4 +87,3 @@ h3 {
 	p {
 		@include mainpara;
 	}
-}

@@ -16,13 +16,40 @@ body {
 	background-position: center;
 	bottom: 100px;
 	padding: 30px;
-	
-	
 }
 
-@media screen and (min-width: 426px) {
-
-
+@media screen and (max-width: 768px) and (min-width: 426px) {
+	.page-wrapper{
+		
+		display:grid;
+		grid-template-columns: repeat(5,1fr);
+		padding-right: 10px;
+	}
+	.intro{
+		
+		grid-column:3/6;
+		text-align:right;
+	}
+	#zen-supporting{
+		
+		grid-column:3/6;
+		text-align:right;
+	}
+	.sidebar{
+		
+		grid-column: 1/6;
+	}
+	.wrapper{
+		
+		display:grid;
+		grid-template-columns: repeat(3, 1fr);
+}
+	.extra5 {
+		
+		background-image: url(./images/pumpkins.png);
+		background-size: 275px;
+		background-repeat: no-repeat;
+	}
 }
 
 @media screen and (min-width: 769px) {
