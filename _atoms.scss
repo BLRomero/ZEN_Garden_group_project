@@ -14,6 +14,15 @@
 // lg view 769=>1440
 // med view 426=>768
 // sm view 320=>425
+body {
+	font-size: $bodyfontsize;
+}
+
+a {
+	font-size: $links;
+}
+
+
 
 h1,
 h2,
