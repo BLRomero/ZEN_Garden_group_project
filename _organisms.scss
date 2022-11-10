@@ -4,7 +4,7 @@
 //body
 
 body {
-	background-color: $background-color;
+	background-color: $backgroundcolor;
 }
 
 .extra5 {
@@ -18,7 +18,7 @@ body {
 	padding: 30px;
 }
 
-@media screen and (max-width: 768px) and (min-width: 426px) {
+@media screen and (max-width: $large) and (min-width: $medium) {
 	.page-wrapper{
 		
 		display:grid;
@@ -52,7 +52,7 @@ body {
 	}
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: $large) {
 	.main_div {
 		margin: auto;
 		border: 3px solid black;
