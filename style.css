@@ -154,17 +154,18 @@ body {
   padding: 30px; }
 
 @media screen and (max-width: 425px) {
-  /*we have some options, it looks ok as the background of the body?
-  body{
-  	background-image: url(./images/gifleavestest.gif);
+  /*body{
+  	//background-image: url(./images/gifleavestest.gif);
+  	background-image: url(./images/leavesgif.gif);
   	background-size: 400px;
   	background-repeat: repeat;
   	background-attachment: fixed;
   	background-blend-mode: soft-light;
   }*/
   .page-wrapper {
-    background-image: url(./images/gifleavestest.gif);
+    background-image: url(./images/leaves-1.png);
     background-size: 400px;
+    background-color: #C6BAA9;
     background-repeat: repeat;
     background-attachment: fixed;
     background-blend-mode: soft-light; } }
