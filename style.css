@@ -154,14 +154,6 @@ body {
   padding: 30px; }
 
 @media screen and (max-width: 425px) {
-  /*body{
-  	//background-image: url(./images/gifleavestest.gif);
-  	background-image: url(./images/leavesgif.gif);
-  	background-size: 400px;
-  	background-repeat: repeat;
-  	background-attachment: fixed;
-  	background-blend-mode: soft-light;
-  }*/
   .page-wrapper {
     background-image: url(./images/leaves-1.png);
     background-size: 400px;
@@ -208,7 +200,7 @@ body {
 
   body {
     background-image: url(./images/treeupdate.png);
-    background-size: 950px;
+    background-size: 450px;
     background-repeat: no-repeat;
     background-attachment: fixed; }
 

@@ -19,20 +19,7 @@ body {
 }
 
 @media screen and (max-width: $small){
-	//we have some options, it looks ok as the background of the body?
-	/*body{
-		//background-image: url(./images/gifleavestest.gif);
-		background-image: url(./images/leavesgif.gif);
-		background-size: 400px;
-		background-repeat: repeat;
-		background-attachment: fixed;
-		background-blend-mode: soft-light;
-	}*/
 	.page-wrapper{
-		//background-image: url(./images/leavesgif.gif);
-		//ok i'm going to leave this as a joke? maybe? I dunno I love it.
-	
-		//background-image: url(./images/gifleavestest.gif);
 		background-image: url(./images/leaves-1.png);
 		background-size: 400px;
 		background-color:$backgroundcolor;
@@ -92,7 +79,7 @@ ul{
 
 	body {
 		background-image: url(./images/treeupdate.png);
-		background-size: 950px;
+		background-size: 450px;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 	}
