@@ -13,12 +13,20 @@ body {
 	background-size: 262px;
 	background-repeat: no-repeat;
 	background-attachment: inherit;
-	background-position: center;
+	background-position: bottom;
 	bottom: 100px;
 	padding: 30px;
 }
 
 @media screen and (max-width: $large) and (min-width: $medium) {
+	body{
+		background-image: url(./images/small_section.png);
+		background-size: 400px;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-blend-mode: soft-light;
+	}
+
 	.page-wrapper{
 		
 		display:grid;
@@ -36,22 +44,26 @@ body {
 		text-align:right;
 	}
 	.sidebar{
-		
-		grid-column: 1/6;
+		grid-column: 2/6;
 	}
 	.wrapper{
 		
 		display:grid;
 		grid-template-columns: repeat(3, 1fr);
 }
-	.extra5 {
-		
+ul{
+	list-style-type:none;
+}
+/*
+.extra5 {
 		background-image: url(./images/pumpkins.png);
-		background-size: 275px;
+		height: 250px;
+		//background-size: 575px;
 		background-repeat: no-repeat;
-	}
+	}*/
 }
 
+//large
 @media screen and (min-width: $large) {
 	.main_div {
 		margin: auto;
