@@ -18,6 +18,27 @@ body {
 	padding: 30px;
 }
 
+@media screen and (max-width: $small){
+	/*we have some options, it looks ok as the background of the body?
+	body{
+		background-image: url(./images/gifleavestest.gif);
+		background-size: 400px;
+		background-repeat: repeat;
+		background-attachment: fixed;
+		background-blend-mode: soft-light;
+	}*/
+	.page-wrapper{
+		//background-image: url(./images/leaves-1.png);
+		//ok i'm going to leave this as a joke? maybe? I dunno I love it.
+	
+		background-image: url(./images/gifleavestest.gif);
+		background-size: 400px;
+		background-repeat: repeat;
+		background-attachment: fixed;
+		background-blend-mode: soft-light;
+	}
+}
+
 @media screen and (max-width: $large) and (min-width: $medium) {
 	body{
 		background-image: url(./images/small_section.png);
@@ -54,13 +75,7 @@ body {
 ul{
 	list-style-type:none;
 }
-/*
-.extra5 {
-		background-image: url(./images/pumpkins.png);
-		height: 250px;
-		//background-size: 575px;
-		background-repeat: no-repeat;
-	}*/
+
 }
 
 //large

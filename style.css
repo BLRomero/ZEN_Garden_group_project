@@ -153,6 +153,21 @@ body {
   bottom: 100px;
   padding: 30px; }
 
+@media screen and (max-width: 425px) {
+  /*we have some options, it looks ok as the background of the body?
+  body{
+  	background-image: url(./images/gifleavestest.gif);
+  	background-size: 400px;
+  	background-repeat: repeat;
+  	background-attachment: fixed;
+  	background-blend-mode: soft-light;
+  }*/
+  .page-wrapper {
+    background-image: url(./images/gifleavestest.gif);
+    background-size: 400px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-blend-mode: soft-light; } }
 @media screen and (max-width: 769px) and (min-width: 426px) {
   body {
     background-image: url(./images/small_section.png);
@@ -182,15 +197,7 @@ body {
     grid-template-columns: repeat(3, 1fr); }
 
   ul {
-    list-style-type: none; }
-
-  /*
-  .extra5 {
-  		background-image: url(./images/pumpkins.png);
-  		height: 250px;
-  		//background-size: 575px;
-  		background-repeat: no-repeat;
-  	}*/ }
+    list-style-type: none; } }
 @media screen and (min-width: 769px) {
   .main_div {
     margin: auto;
