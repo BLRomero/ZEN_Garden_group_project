@@ -2,7 +2,9 @@
 //html
 //head
 //body
-
+html{
+	max-width: $maxwidth;
+}
 body {
 	background-color: $backgroundcolor;
 }
