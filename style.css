@@ -138,15 +138,13 @@ p {
       grid-row: 3;
       position: fixed;
       left: 310px;
-      top: 700px; }
+      top: 550px; }
     .wrapper .zen-resources {
       grid-column: 2;
       grid-row: 3;
       position: fixed;
-      left: 270px;
-      top: 680px;
       left: 310px;
-      top: 530px; }
+      top: 650px; }
     .wrapper h3.select,
     .wrapper h3.resources,
     .wrapper h3.archives {
@@ -177,7 +175,20 @@ body {
     background-color: #C6BAA9;
     background-repeat: repeat;
     background-attachment: fixed;
-    background-blend-mode: soft-light; } }
+    background-blend-mode: soft-light; }
+
+  ul {
+    list-style: none; }
+
+  h3.select,
+  h3.resources,
+  h3.archives {
+    margin: 10px; }
+
+  ul {
+    margin: 10px;
+    padding-bottom: 25px;
+    padding-left: 0; } }
 @media screen and (max-width: 769px) and (min-width: 426px) {
   body {
     background-image: url(./images/small_section.png);

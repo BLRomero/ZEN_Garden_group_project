@@ -31,6 +31,20 @@ body {
 		background-attachment: fixed;
 		background-blend-mode: soft-light;
 	}
+	ul{
+		list-style:none;
+	}
+	h3.select,
+	h3.resources,
+	h3.archives {
+		margin: 10px;
+		
+	}
+	ul{
+		margin: 10px;
+		padding-bottom: 25px;
+		padding-left: 0;
+	}
 }
 
 @media screen and (max-width: $large) and (min-width: $medium) {
