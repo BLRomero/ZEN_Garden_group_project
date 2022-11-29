@@ -97,13 +97,12 @@
 		grid-row: 2;
 
 		// small grid
-		padding-left: 75px;	
-		text-align: center;
+		// padding-left: 75px;	
+		// text-align: center;
 	
 	}
 
 	.wrapper{
-
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows:525px 275px 800px ;
@@ -116,26 +115,28 @@
 			grid-row: 2;
 			list-style: none;
 			position: fixed;
-			left:200px;
-			top: 680px;
-		}
+			left:50px;
+			top: 600px;
 
+		}
 		.design-archives{
 			// small grid within .sidebar
 			grid-column: 1;
 			grid-row: 3;
 			position: fixed;
-			left: 275px;
-			top: 570px;			
+			left: 260px;
+			top: 510px;			
 
 		}
 		.zen-resources {
 			grid-column: 2;
 			grid-row: 3;
 			position: fixed;
-			left:50px;
-			top: 600px;
+			left:250px;
+			top: 680px;	
+
 		}
+		
 	}
 }
 
