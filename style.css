@@ -131,13 +131,22 @@ p {
     .wrapper .design-selection {
       grid-column: 1/3;
       grid-row: 2;
-      list-style: none; }
+      list-style: none;
+      position: fixed;
+      left: 200px;
+      top: 680px; }
     .wrapper .design-archives {
       grid-column: 1;
-      grid-row: 3; }
+      grid-row: 3;
+      position: fixed;
+      left: 275px;
+      top: 560px; }
     .wrapper .zen-resources {
       grid-column: 2;
-      grid-row: 3; } }
+      grid-row: 3;
+      position: fixed;
+      left: 50px;
+      top: 600px; } }
 html {
   max-width: 1220px; }
 
