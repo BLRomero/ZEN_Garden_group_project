@@ -115,8 +115,8 @@
 			grid-row: 2;
 			list-style: none;
 			position: fixed;
-			left:50px;
-			top: 600px;
+			left:45px;
+			top: 615px;
 
 		}
 		.design-archives{
@@ -124,17 +124,30 @@
 			grid-column: 1;
 			grid-row: 3;
 			position: fixed;
-			left: 260px;
-			top: 510px;			
+			left:310px;
+			top: 700px;			
 
 		}
 		.zen-resources {
 			grid-column: 2;
 			grid-row: 3;
 			position: fixed;
-			left:250px;
-			top: 680px;	
+			left:270px;
+			top: 680px;
+			left: 310px;
+			top: 530px;		
 
+		}
+		h3.select,
+		h3.resources,
+		h3.archives
+		{
+			margin: 7px;
+			
+		}
+		ul {
+			margin: 0;
+			padding: 0;
 		}
 		
 	}
