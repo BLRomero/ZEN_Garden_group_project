@@ -20,7 +20,10 @@ body {
 	background-position: center bottom ;
 	bottom: 100px;
 	padding: 30px;
-	
+}
+
+footer::after{
+	content:"Tree image found at clipartix.com (fall tree clipart #61010). Pumpkins found at clipartmax.com. Liscensed for personal use.";
 }
 
 @media screen and (max-width: $small){
