@@ -156,7 +156,8 @@ html {
   max-width: 1220px; }
 
 body {
-  background-color: #C6BAA9; }
+  background: #342f57;
+  background: linear-gradient(180deg, #342f57 0%, #825776 35%, #ea6248 100%); }
 
 .extra5 {
   background-image: url(./images/pumpkins.png);
@@ -233,7 +234,9 @@ footer::after {
     background-image: url(./images/treeupdate.png);
     background-size: 450px;
     background-repeat: no-repeat;
-    background-attachment: fixed; }
+    background-attachment: fixed;
+    background: #825776;
+    background: linear-gradient(180deg, #825776 0%, #d17b77 50%, #ea6248 100%); }
 
   .extra5 {
     background-image: url(./images/pumpkins.png);

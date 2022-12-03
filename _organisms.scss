@@ -8,7 +8,9 @@ html{
 	max-width: $maxwidth;
 }
 body {
-	background-color: $backgroundcolor;
+	//background-color: $backgroundcolor;
+	background: rgb(52,47,87);
+	background: linear-gradient(180deg, rgba(52,47,87,1) 0%, rgba(130,87,118,1) 35%, rgba(234,98,72,1) 100%);
 }
 
 .extra5 {
@@ -104,6 +106,8 @@ ul{
 		background-size: 450px;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
+		background: rgb(130,87,118);
+		background: linear-gradient(180deg, rgba(130,87,118,1) 0%, rgba(209,123,119,1) 50%, rgba(234,98,72,1) 100%);
 	}
 
 	.extra5 {
