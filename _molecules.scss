@@ -62,15 +62,15 @@
 	.sidebar {
 		
 		// lg grid placement within .page-wrapper
-		grid-column: 1;
-		grid-row: 2;
+		grid-column: 6;
+		grid-row: 3;
 	}
 
 	.wrapper{
 		display:grid;
-		grid-template-columns: repeat(5,1fr)''
+		grid-template-columns: repeat(5,1fr);
 			li {
-			list-style: none;
+				list-style: none;
 		}
 		
 		.design-selection{
