@@ -3,90 +3,59 @@
 @media screen and (min-width: $large) {
 	.page-wrapper {
 		display: grid;
-		// change this later
-		grid-template-columns: 1fr 0.25fr 2fr;
+		grid-template-columns: repeat(12, 1fr);
 		grid-template-rows: auto;
-		// grid-gap: 20px;  
 	}
 
 	// section intro = banner, summary, preamble 
 	.intro {
 		// lg grid placement within .page-wrapper
-		grid-column: 3;
-		grid-row: 1;
-		// small grid setup .intro
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		grid-template-rows: repeat(3, auto);
-		padding-right: 30px;
+		grid-column: 6/11;
+		//padding-right: 30px;
 	}
 
 	[role=banner] {
 		//  css grid garden/ the beauty
 		// small grid placement within .intro
-		grid-column: 1/4;
 		text-align: center;
-	}
-
-	.summary {
-		// a demonstration / download....
-		// small grid placement within .intro
-		grid-column: 2/5;
-		grid-row: 2;
-		// text-align: center;
-	}
-
-	.preamble {
-		// road to enlightenment
-		// small grid placement within .intro
-		grid-column: 1/4;
-		grid-row: 3;
-		// text-align: right;
 	}
 
 	// div main = explanation, participation, benefits, requirements footer
 	.main {
 		// lg grid placement within .page-wrapper
-		grid-column: 3;
-		grid-row: 2;
+		grid-column: 5/12;
 		// small grid set .main
 		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		grid-template-rows: repeat(5, auto);
+		grid-template-columns: repeat(7, 1fr);
+		//grid-template-rows: repeat(5, auto);
 		grid-gap: 10px;
-		padding: 30px;
+		padding-left: 75px;
 
 	}
 
 	.explanation {
-		// So What is this all about
-		// small grid placement within .main
-		grid-column: 2/5;
-		grid-row: 1;
+		grid-column: 1/4;
 	}
 
 	.participation {
 		// small grid placement within .main
-		grid-column: 1/4;
-		grid-row: 2;
+		grid-column: 4/8;
 	}
 
 	.benefits {
 		// small grid placement within .main
-		grid-column: 2/5;
-		grid-row: 3;
+		grid-column: 1/8;
 	}
 
 	.requirements {
 		// small grid placement within .main
-		grid-column: 1/5;
-		grid-row: 4;
+		grid-column: 2/7;
 	}
 
 	footer {
 		// small grid placement within .main
 		grid-column: 1/-1;
-		grid-row: 5;
+
 	}
 
 	// aside sidebar = wrapper, design selection, design-archives, zen-resources
@@ -95,25 +64,15 @@
 		// lg grid placement within .page-wrapper
 		grid-column: 1;
 		grid-row: 2;
-
-		// small grid
-		// padding-left: 75px;	
-		// text-align: center;
-	
 	}
 
 	.wrapper{
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows:525px 275px 800px ;
-		li {
+			li {
 			list-style: none;
 		}
 		
 		.design-selection{
 			// small grid within .sidebar
-			grid-column: 1/3;
-			grid-row: 2;
 			list-style: none;
 			position: fixed;
 			left:45px;
@@ -122,11 +81,9 @@
 		}
 		.design-archives{
 			// small grid within .sidebar
-			grid-column: 1;
-			grid-row: 3;
 			position: fixed;
-			left: 210px;
-			top: 825px;	
+			left: 295px;
+			top: 710px;	
 						
 
 		}

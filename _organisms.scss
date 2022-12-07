@@ -3,12 +3,13 @@
 //head
 //body
 
-
-html{
-	max-width: $maxwidth;
-}
 body {
 	background-color: $backgroundcolor;
+<<<<<<< Updated upstream
+=======
+	//background: rgb(52,47,87);
+	//background: linear-gradient(180deg, rgba(52,47,87,1) 0%, rgba(130,87,118,1) 35%, rgba(234,98,72,1) 100%);
+>>>>>>> Stashed changes
 }
 
 .extra5 {
@@ -24,6 +25,8 @@ body {
 
 footer::after{
 	content:"Tree image found at clipartix.com (fall tree clipart #61010). Pumpkins found at clipartmax.com. Liscensed for personal use.";
+	font-size: 13px;
+	color: $accentcolor3;
 }
 
 @media screen and (max-width: $small){
@@ -104,6 +107,11 @@ ul{
 		background-size: 450px;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
+<<<<<<< Updated upstream
+=======
+		//background: rgb(130,87,118);
+		//background: linear-gradient(180deg, rgba(130,87,118,1) 0%, rgba(209,123,119,1) 50%, rgba(234,98,72,1) 100%);
+>>>>>>> Stashed changes
 	}
 
 	.extra5 {
