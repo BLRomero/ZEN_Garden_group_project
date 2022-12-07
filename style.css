@@ -1,80 +1,214 @@
-/*
-Error: Invalid CSS after "...Stashed changes": expected "{", was "}"
-        on line 18 of _organisms.scss
-        from line 4 of style.scss
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Mali&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Mali&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Mali&display=swap");
+body {
+  font-size: 1em; }
 
-13: >>>>>>> Stashed changes
-14: =======
-15: 	//background: rgb(52,47,87);
-16: 	//background: linear-gradient(180deg, rgba(52,47,87,1) 0%, rgba(130,87,118,1) 35%, rgba(234,98,72,1) 100%);
-17: >>>>>>> Stashed changes
-18: }
-19: 
-20: .extra5 {
-21: 	background-image: url(./images/pumpkins.png);
-22: 	height: 115px;
-23: 	background-size: 262px;
+a {
+  font-size: 0.8em; }
 
-Backtrace:
-_organisms.scss:18
-style.scss:4
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1233:in `tok!'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:688:in `block'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:681:in `ruleset'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:41:in `parse'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/engine.rb:321:in `to_tree'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...Stashed changes\": expected \"{\", was \"}\"\A         on line 18 of _organisms.scss\A         from line 4 of style.scss\A \A 13: >>>>>>> Stashed changes\A 14: =======\A 15: 	//background: rgb(52,47,87);\A 16: 	//background: linear-gradient(180deg, rgba(52,47,87,1) 0%, rgba(130,87,118,1) 35%, rgba(234,98,72,1) 100%);\A 17: >>>>>>> Stashed changes\A 18: }\A 19: \A 20: .extra5 {\A 21: 	background-image: url(./images/pumpkins.png);\A 22: 	height: 115px;\A 23: 	background-size: 262px;"; }
+h1,
+h2,
+h3 {
+  font-family: "Mali", cursive;
+  line-height: normal;
+  color: #5f0f40; }
+
+h1 {
+  font-size: 2em;
+  color: #9a031e;
+  margin-block-end: 0; }
+
+h2 {
+  font-size: 1.2em;
+  margin-block-start: 0;
+  color: #9a031e; }
+
+h3 {
+  font-size: 1.2em; }
+
+h1,
+h2,
+h3 {
+  font-family: "Mali", cursive;
+  line-height: normal;
+  color: #5f0f40; }
+
+h1 {
+  font-size: 2.5em;
+  color: #9a031e;
+  margin-block-end: 0; }
+
+h2 {
+  font-size: 1.5em;
+  margin-block-start: 0;
+  color: #9a031e; }
+
+h3 {
+  font-size: 1.5em; }
+
+a {
+  color: #000000; }
+  a:hover {
+    color: #CE5A12; }
+  a:visited {
+    color: #9A031E; }
+
+p {
+  font-family: "Lora", serif;
+  color: #000000; }
+
+@media screen and (min-width: 426px) {
+  h1 {
+    font-size: 3em; } }
+@media screen and (min-width: 910px) {
+  .page-wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto; }
+
+  .intro {
+    grid-column: 6/11; }
+
+  [role=banner] {
+    text-align: center; }
+
+  .main {
+    grid-column: 5/12;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+    padding-left: 75px; }
+
+  .explanation {
+    grid-column: 1/4; }
+
+  .participation {
+    grid-column: 4/8; }
+
+  .benefits {
+    grid-column: 1/8; }
+
+  .requirements {
+    grid-column: 2/7; }
+
+  footer {
+    grid-column: 1/-1; }
+
+  .sidebar {
+    grid-column: 1;
+    grid-row: 2; }
+
+  .wrapper li {
+    list-style: none; }
+  .wrapper .design-selection {
+    list-style: none;
+    position: fixed;
+    left: 45px;
+    top: 615px; }
+  .wrapper .design-archives {
+    position: fixed;
+    left: 295px;
+    top: 710px; }
+  .wrapper .zen-resources {
+    grid-column: 2;
+    grid-row: 3;
+    position: fixed;
+    left: 310px;
+    top: 550px; }
+  .wrapper h3.select,
+  .wrapper h3.resources,
+  .wrapper h3.archives {
+    margin: 7px; }
+  .wrapper ul {
+    margin: 0;
+    padding: 0; } }
+body {
+  background-color: #C6BAA9; }
+
+.extra5 {
+  background-image: url(./images/pumpkins.png);
+  height: 115px;
+  background-size: 262px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom;
+  bottom: 100px;
+  padding: 30px; }
+
+footer::after {
+  content: "Tree image found at clipartix.com (fall tree clipart #61010). Pumpkins found at clipartmax.com. Liscensed for personal use.";
+  font-size: 13px;
+  color: #0f4c5c; }
+
+@media screen and (max-width: 425px) {
+  .page-wrapper {
+    background-image: url(./images/leaves-1.png);
+    background-size: 400px;
+    background-color: #C6BAA9;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-blend-mode: soft-light; }
+
+  ul {
+    list-style: none; }
+
+  h3.select,
+  h3.resources,
+  h3.archives {
+    margin: 10px; }
+
+  ul {
+    margin: 10px;
+    padding-bottom: 25px;
+    padding-left: 0; } }
+@media screen and (max-width: 910px) and (min-width: 426px) {
+  body {
+    background-image: url(./images/small_section.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: soft-light; }
+
+  .page-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-right: 10px; }
+
+  .intro {
+    grid-column: 3/6;
+    text-align: right; }
+
+  #zen-supporting {
+    grid-column: 3/6;
+    text-align: right; }
+
+  .sidebar {
+    grid-column: 2/6; }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+
+  ul {
+    list-style-type: none; } }
+@media screen and (min-width: 910px) {
+  .main_div {
+    margin: auto;
+    border: 3px solid black;
+    width: 40%;
+    padding: 5px; }
+
+  body {
+    background-image: url(./images/treeupdate.png);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
+
+  .extra5 {
+    background-image: url(./images/pumpkins.png);
+    height: 250px;
+    background-size: 575px;
+    background-repeat: no-repeat; } }
+
+/*# sourceMappingURL=style.css.map */
