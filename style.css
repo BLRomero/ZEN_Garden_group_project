@@ -1,22 +1,22 @@
 /*
 Error: Invalid CSS after "...Stashed changes": expected "{", was "}"
-        on line 13 of _organisms.scss
+        on line 18 of _organisms.scss
         from line 4 of style.scss
 
-8: <<<<<<< Updated upstream
-9: =======
-10: 	//background: rgb(52,47,87);
-11: 	//background: linear-gradient(180deg, rgba(52,47,87,1) 0%, rgba(130,87,118,1) 35%, rgba(234,98,72,1) 100%);
-12: >>>>>>> Stashed changes
-13: }
-14: 
-15: .extra5 {
-16: 	background-image: url(./images/pumpkins.png);
-17: 	height: 115px;
-18: 	background-size: 262px;
+13: >>>>>>> Stashed changes
+14: =======
+15: 	//background: rgb(52,47,87);
+16: 	//background: linear-gradient(180deg, rgba(52,47,87,1) 0%, rgba(130,87,118,1) 35%, rgba(234,98,72,1) 100%);
+17: >>>>>>> Stashed changes
+18: }
+19: 
+20: .extra5 {
+21: 	background-image: url(./images/pumpkins.png);
+22: 	height: 115px;
+23: 	background-size: 262px;
 
 Backtrace:
-_organisms.scss:13
+_organisms.scss:18
 style.scss:4
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
@@ -77,4 +77,4 @@ C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...Stashed changes\": expected \"{\", was \"}\"\A         on line 13 of _organisms.scss\A         from line 4 of style.scss\A \A 8: <<<<<<< Updated upstream\A 9: =======\A 10: 	//background: rgb(52,47,87);\A 11: 	//background: linear-gradient(180deg, rgba(52,47,87,1) 0%, rgba(130,87,118,1) 35%, rgba(234,98,72,1) 100%);\A 12: >>>>>>> Stashed changes\A 13: }\A 14: \A 15: .extra5 {\A 16: 	background-image: url(./images/pumpkins.png);\A 17: 	height: 115px;\A 18: 	background-size: 262px;"; }
+  content: "Error: Invalid CSS after \"...Stashed changes\": expected \"{\", was \"}\"\A         on line 18 of _organisms.scss\A         from line 4 of style.scss\A \A 13: >>>>>>> Stashed changes\A 14: =======\A 15: 	//background: rgb(52,47,87);\A 16: 	//background: linear-gradient(180deg, rgba(52,47,87,1) 0%, rgba(130,87,118,1) 35%, rgba(234,98,72,1) 100%);\A 17: >>>>>>> Stashed changes\A 18: }\A 19: \A 20: .extra5 {\A 21: 	background-image: url(./images/pumpkins.png);\A 22: 	height: 115px;\A 23: 	background-size: 262px;"; }
