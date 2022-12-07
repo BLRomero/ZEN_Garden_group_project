@@ -6,11 +6,18 @@
 		grid-template-columns: repeat(12, 1fr);
 		grid-template-rows: auto;
 	}
+	div#zen-summary.summary p:first-of-type{
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+	div#zen-summary.summary p {
+		text-align:center;
+	}
 
 	// section intro = banner, summary, preamble 
 	.intro {
 		// lg grid placement within .page-wrapper
-		grid-column: 6/11;
+		grid-column: 5/12;
 		//padding-right: 30px;
 	}
 
@@ -29,12 +36,12 @@
 		grid-template-columns: repeat(7, 1fr);
 		//grid-template-rows: repeat(5, auto);
 		grid-gap: 10px;
-		padding-left: 75px;
 
 	}
 
 	.explanation {
 		grid-column: 1/4;
+		padding-right: 3em;
 	}
 
 	.participation {
@@ -49,7 +56,7 @@
 
 	.requirements {
 		// small grid placement within .main
-		grid-column: 2/7;
+		grid-column: 1/8;
 	}
 
 	footer {
@@ -62,13 +69,15 @@
 	.sidebar {
 		
 		// lg grid placement within .page-wrapper
-		grid-column: 6;
+		grid-column: 5/12;
 		grid-row: 3;
 	}
 
 	.wrapper{
 		display:grid;
+		text-align:center;
 		grid-template-columns: repeat(5,1fr);
+		padding-top: 2em;
 			li {
 				list-style: none;
 		}
@@ -85,7 +94,7 @@
 
 		}
 		.zen-resources {
-			grid-column: 5/6;	
+			grid-column: 4/5;	
 
 		}
 		h3.select,
@@ -103,7 +112,15 @@
 	}
 }
 
-
+@media screen and (max-width: 1250px){
+	body {
+		background-image: url(./images/treeupdate.png);
+		background-size: 450px;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-blend-mode: soft-light;
+	}
+}
 
 
 

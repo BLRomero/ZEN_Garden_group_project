@@ -67,8 +67,15 @@ p {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto; }
 
+  div#zen-summary.summary p:first-of-type {
+    padding-left: 100px;
+    padding-right: 100px; }
+
+  div#zen-summary.summary p {
+    text-align: center; }
+
   .intro {
-    grid-column: 6/11; }
+    grid-column: 5/12; }
 
   [role=banner] {
     text-align: center; }
@@ -77,11 +84,11 @@ p {
     grid-column: 5/12;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-gap: 10px;
-    padding-left: 75px; }
+    grid-gap: 10px; }
 
   .explanation {
-    grid-column: 1/4; }
+    grid-column: 1/4;
+    padding-right: 3em; }
 
   .participation {
     grid-column: 4/8; }
@@ -90,18 +97,20 @@ p {
     grid-column: 1/8; }
 
   .requirements {
-    grid-column: 2/7; }
+    grid-column: 1/8; }
 
   footer {
     grid-column: 1/-1; }
 
   .sidebar {
-    grid-column: 6;
+    grid-column: 5/12;
     grid-row: 3; }
 
   .wrapper {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); }
+    text-align: center;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 2em; }
     .wrapper li {
       list-style: none; }
     .wrapper .design-selection {
@@ -110,7 +119,7 @@ p {
     .wrapper .design-archives {
       grid-column: 3/4; }
     .wrapper .zen-resources {
-      grid-column: 5/6; }
+      grid-column: 4/5; }
     .wrapper h3.select,
     .wrapper h3.resources,
     .wrapper h3.archives {
@@ -118,6 +127,13 @@ p {
     .wrapper ul {
       margin: 0;
       padding: 0; } }
+@media screen and (max-width: 1250px) {
+  body {
+    background-image: url(./images/treeupdate.png);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: soft-light; } }
 body {
   background-color: #C6BAA9; }
 
